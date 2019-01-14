@@ -7,7 +7,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
 array=[]
-array << text.scan(/\b^un.+ing$/)
+array << text.scan(/\bun.+ing$/)
 array
 end
 
